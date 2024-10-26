@@ -1,7 +1,7 @@
 {
-  "name": "weather-api",
-  "private": true,
+  "name": "weather",
   "version": "0.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,10 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.5.12"
+    "pinia": "^2.2.4",
+    "sass": "^1.80.4",
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.4",
-    "vite": "^5.4.9"
+    "vite": "^5.4.10",
+    "vite-plugin-vue-devtools": "^7.5.3"
   }
 }
